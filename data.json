@@ -1,0 +1,602 @@
+{
+	"name": "bc-common",
+	"profiles": ["bc-dev"],
+	"label": null,
+	"version": "8b9797f1f9bb1e9e5c4a7cb848040f0294c7ceb7",
+	"state": null,
+	"propertySources": [{
+		"name": "https://github.com/101digital/app-configurations.git/bc-dev/bc-common/application.yml",
+		"source": {
+			"validation.materialSalesOrg": {
+				"data": {
+					"salesOrg": {
+						"AU01": ["AU"],
+						"NZ01": ["NZ"],
+						"MY01": ["MY"],
+						"SG01": ["SG"],
+						"ID01": ["IA", "IB", "IC", "ID", "IE", "IF", "IG", "IH"],
+						"IN01": ["NA", "NB", "NC", "ND", "NE", "NF", "NG"],
+						"TH11": ["TH"],
+						"VN01": ["VC", "VH"],
+						"PH01": ["PA", "PB", "PC"],
+						"TW01": ["TW"],
+						"BD11": ["BD"],
+						"BD21": ["BD"],
+						"KR01": ["KR"]
+					}
+				}
+			},
+			"sapMeta": {
+				"sapMeta": {
+					"apac": {
+						"AU01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"AU": {
+									"plants": ["AU01", "AU02", "AU10", "AU11", "AU12", "AU13", "AU14", "AU15", "AU16", "AU17", "AU18", "AU19", "AU20", "AU21", "AU22", "AU23", "AU24", "AU25", "AU26", "AU27", "AU28", "AU29", "AU30", "AU31", "AU32", "AU33", "AU34", "AU35", "AU36", "AU37", "AU38", "AU39", "AU40", "AU41", "AU42", "AU43", "AU44", "AU45", "AU46", "AU47", "AU48", "AU49", "AU50", "AU51", "AU52", "AU53", "AU54", "AU55", "AU56", "AU57", "AU58", "AU59", "AU60", "AU61", "AU80", "AU81"]
+								}
+							}
+						},
+						"NZ01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"NZ": {
+									"plants": ["NZ01", "NZ10", "NZ11", "NZ12", "NZ13", "NZ14", "NZ15", "NZ16", "NZ17", "NZ18", "NZ19", "NZ20", "NZ21", "NZ22", "NZ23", "NZ24", "NZ25", "NZ26", "NZ27"]
+								}
+							}
+						},
+						"SG01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"CM": {
+									"plants": ["RH01"]
+								},
+								"DU": {
+									"plants": ["RH01"]
+								},
+								"MN": {
+									"plants": ["RH01", "RH02"]
+								},
+								"RH": {
+									"plants": ["RH01", "RH02"]
+								},
+								"SG": {
+									"plants": ["SG01", "SG02", "SG03"]
+								},
+								"VI": {
+									"plants": ["RH01", "RH02"]
+								},
+								"VN": {
+									"plants": ["RH01"]
+								}
+							}
+						},
+						"MY01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"MY": {
+									"plants": ["MY11", "MY12", "MY13"]
+								}
+							}
+						},
+						"ID01": {
+							"isDcDefaulted": true,
+							"distrChannels": {
+								"IA": {
+									"plants": ["ID11", "ID12", "ID22", "ID32", "ID42", "ID52", "ID62", "ID72", "ID82"]
+								},
+								"IB": {
+									"plants": ["ID12", "ID21", "ID22", "ID32", "ID42", "ID52", "ID62", "ID72", "ID82"]
+								},
+								"IC": {
+									"plants": ["ID12", "ID22", "ID31", "ID32", "ID42", "ID52", "ID62", "ID72", "ID82"]
+								},
+								"ID": {
+									"plants": ["ID12", "ID22", "ID32", "ID41", "ID42", "ID52", "ID62", "ID72", "ID82"]
+								},
+								"IE": {
+									"plants": ["ID12", "ID22", "ID32", "ID42", "ID51", "ID52", "ID62", "ID72", "ID82"]
+								},
+								"IF": {
+									"plants": ["ID12", "ID22", "ID32", "ID42", "ID52", "ID61", "ID62", "ID72", "ID82"]
+								},
+								"IG": {
+									"plants": ["ID12", "ID22", "ID32", "ID42", "ID52", "ID62", "ID71", "ID72", "ID82"]
+								},
+								"IH": {
+									"plants": ["ID12", "ID22", "ID32", "ID42", "ID52", "ID62", "ID72", "ID82"]
+								}
+							},
+							"defaultDc": "ZX"
+						},
+						"IN01": {
+							"isDcDefaulted": true,
+							"distrChannels": {
+								"NA": {
+									"plants": ["IN11", "IN12", "IN13"]
+								},
+								"NB": {
+									"plants": ["IN21", "IN22"]
+								},
+								"NC": {
+									"plants": ["IN31", "IN32", "IN33"]
+								},
+								"ND": {
+									"plants": ["IN41", "IN42"]
+								},
+								"NE": {
+									"plants": ["IN51", "IN52"]
+								},
+								"NF": {
+									"plants": ["IN61", "IN62"]
+								},
+								"NG": {
+									"plants": ["IN71", "IN72"]
+								}
+							},
+							"defaultDc": "ZX"
+						},
+						"HK01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"HK": {
+									"plants": ["HK11", "HK12"]
+								}
+							}
+						},
+						"KR01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"KR": {
+									"plants": ["KR11", "KR12"]
+								}
+							}
+						},
+						"TW01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"TW": {
+									"plants": ["TW11", "TW12"]
+								}
+							}
+						},
+						"PH01": {
+							"isDcDefaulted": true,
+							"distrChannels": {
+								"PA": {
+									"plants": ["PH11", "PH12"]
+								},
+								"PB": {
+									"plants": ["PH21", "PH22"]
+								},
+								"PC": {
+									"plants": ["PH31", "PH32"]
+								}
+							},
+							"defaultDc": "ZX"
+						},
+						"BD11": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"BD": {
+									"plants": ["BD11", "BD12"]
+								}
+							}
+						},
+						"BD21": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"BD": {
+									"plants": ["BD21", "BD22"]
+								}
+							}
+						},
+						"BD31": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"BD": {
+									"plants": ["BD31"]
+								}
+							}
+						},
+						"VN01": {
+							"isDcDefaulted": true,
+							"distrChannels": {
+								"VC": {
+									"plants": ["VN11", "VN12"]
+								},
+								"VH": {
+									"plants": ["VN21", "VN22"]
+								}
+							},
+							"defaultDc": "ZX"
+						},
+						"ZV01": {
+							"isDcDefaulted": true,
+							"distrChannels": {
+								"Z1": {
+									"plants": ["ZV11", "ZV12", "ZV13"]
+								},
+								"Z2": {
+									"plants": ["ZV21", "ZV22", "ZV23"]
+								}
+							},
+							"defaultDc": "ZX"
+						},
+						"BA01": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"BA": {
+									"plants": ["TH31", "TH32"]
+								}
+							}
+						},
+						"TH11": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"TH": {
+									"plants": ["TH11", "TH12", "TH13"]
+								}
+							}
+						},
+						"TH21": {
+							"isDcDefaulted": false,
+							"distrChannels": {
+								"TH": {
+									"plants": ["TH21", "TH22", "TH23"]
+								}
+							}
+						}
+					}
+				}
+			},
+			"refData": {
+				"referenceData": {
+					"apac": {
+						"salesGroup": {
+							"AU01": {
+								"AU": "Brenntag Australia",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "AU",
+									"country": "Australia"
+								}
+							},
+							"BD11": {
+								"BD": "Brenntag Bangladesh",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "BD",
+									"country": "Bangladesh"
+								}
+							},
+							"BD21": {
+								"BD": "Brenntag Bangladesh Formulation",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "BD",
+									"country": "Bangladesh"
+								}
+							},
+							"BD31": {
+								"BD": "Brenntag Bangladesh Services",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "BD",
+									"country": "Bangladesh"
+								}
+							},
+							"HK01": {
+								"HK": "Brenntag Hong Kong",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "HK",
+									"country": "Hong Kong"
+								}
+							},
+							"ID01": {
+								"ZX": "Brenntag Indonesia",
+								"IA": "Brenntag Indonesia - JAK",
+								"IB": "Brenntag Indonesia - BAN",
+								"IC": "Brenntag Indonesia - SEM",
+								"ID": "Brenntag Indonesia - SUR",
+								"IE": "Brenntag Indonesia - MED",
+								"IF": "Brenntag Indonesia - MAK",
+								"IG": "Brenntag Indonesia - PAL",
+								"IH": "Brenntag Indonesia - BAL",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "id",
+									"language": "Bahasa"
+								}],
+								"country": {
+									"code": "ID",
+									"country": "Indonesia"
+								}
+							},
+							"IN01": {
+								"ZX": "Brenntag India",
+								"NA": "Brenntag India - MH",
+								"NB": "Brenntag India - HR",
+								"NC": "Brenntag India - TN",
+								"ND": "Brenntag India - UK",
+								"NE": "Brenntag India - WB",
+								"NF": "Brenntag India - KL",
+								"NG": "Brenntag India - GJ",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "IN",
+									"country": "India"
+								}
+							},
+							"KR01": {
+								"KR": "Brenntag Korea",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "ko",
+									"language": "Korean"
+								}],
+								"country": {
+									"code": "KR",
+									"country": "South-Korea"
+								}
+							},
+							"MY01": {
+								"MY": "Brenntag Malaysia",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "MY",
+									"country": "Malaysia"
+								}
+							},
+							"NZ01": {
+								"NZ": "Brenntag New Zealand",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "NZ",
+									"country": "New Zealand"
+								}
+							},
+							"PH01": {
+								"ZX": "Brenntag Phillippines",
+								"PA": "Brenntag Phillippines",
+								"PB": "Brenntag Phillippines",
+								"PC": "Brenntag Phillippines",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}],
+								"country": {
+									"code": "PH",
+									"country": "Philippines"
+								}
+							},
+							"SG01": {
+								"SG": "Brenntag Singapore",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "zh-CN",
+									"language": "Mandarin (simplified)"
+								}],
+								"country": {
+									"code": "SG",
+									"country": "Singapore"
+								}
+							},
+							"TW01": {
+								"TW": "Brenntag Taiwan",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "zh-TW",
+									"language": "Mandarin (traditional)"
+								}],
+								"country": {
+									"code": "TW",
+									"country": "Taiwan"
+								}
+							},
+							"TH11": {
+								"TH": "Brenntag Thailand BIT",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "th",
+									"language": "Thai"
+								}],
+								"country": {
+									"code": "TH",
+									"country": "Thailand"
+								}
+							},
+							"TH21": {
+								"TH": "Brenntag Thailand TD",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "th",
+									"language": "Thai"
+								}],
+								"country": {
+									"code": "TH",
+									"country": "Thailand"
+								}
+							},
+							"VN01": {
+								"ZX": "Brenntag Vietnam",
+								"VC": "Brenntag Vietnam HCM",
+								"VH": "Brenntag Vietnam Hanoi",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "vi",
+									"language": "Vietnamese"
+								}],
+								"country": {
+									"code": "VN",
+									"country": "Vietnam"
+								}
+							},
+							"ZV01": {
+								"ZX": "Brenntag Vietnam NG",
+								"Z1": "Brenntag Vietnam NG",
+								"Z2": "Brenntag Vietnam NG",
+								"languages": [{
+									"code": "en",
+									"language": "English"
+								}, {
+									"code": "vi",
+									"language": "Vietnamese"
+								}],
+								"country": {
+									"code": "VN",
+									"country": "Vietnam"
+								}
+							}
+						},
+						"temperatureConditions": {
+							"01": ">25 to 40ºC",
+							"02": ">15 to 25ºC with controlled humidity",
+							"03": ">8 to 15ºC with controlled humidity",
+							"04": ">0 to 8ºC with controlled humidity",
+							"05": ">-20 to 0ºC",
+							"06": "-20ºC & below"
+						},
+						"storageConditions": {
+							"10": "Non-conforming Storage",
+							"11": "Liquid Bulk Storage",
+							"12": "Production Area",
+							"01": "Gen Storage-Food, Pharma",
+							"02": "General Storage",
+							"03": "Hazardous Storage",
+							"04": "Cool Room Storage Food, Pharma",
+							"05": "Flammable Ambient",
+							"06": "Cool Room Storage",
+							"07": "Freezer Room Storage",
+							"08": "Flurochemical Storage",
+							"09": "Ammonia Storage"
+						},
+						"hazardousClassification": {
+							"1": "Explosive (1)",
+							"3": "Flammable Liquid (3)",
+							"7": "Radioactive Materials (7)",
+							"8": "Corrosive Substances (8)",
+							"9": "Miscellaneous Dangerous (9)",
+							"2.1": "Flammable Gas (2.1)",
+							"2.2": "Non-Flammable, Non-Toxic Gas (2.2)",
+							"2.3": "Toxic Gas (2.3)",
+							"4.1": "Flammable Solid (4.1)",
+							"4.2": "Spontaneously Combustible (4.2)",
+							"4.3": "Dangerous When Wet (4.3)",
+							"5.1": "Oxidizer (5.1)",
+							"5.2": "Organic Peroxides (5.2)",
+							"6.1": "Toxic Substances (6.1)",
+							"6.2": "Infectious Substances (6.2)"
+						},
+						"dangerousGoodsClass": {
+							"1": "Explosive (1)",
+							"3": "Flammable Liquid (3)",
+							"7": "Radioactive Materials (7)",
+							"8": "Corrosive Substances (8)",
+							"9": "Miscellaneous Dangerous (9)",
+							"2.1": "Flammable Gas (2.1)",
+							"2.2": "Non-Flammable, Non-Toxic Gas (2.2)",
+							"2.3": "Toxic Gas (2.3)",
+							"4.1": "Flammable Solid (4.1)",
+							"4.2": "Spontaneously Combustible (4.2)",
+							"4.3": "Dangerous When Wet (4.3)",
+							"5.1": "Oxidizer (5.1)",
+							"5.2": "Organic Peroxides (5.2)",
+							"6.1": "Toxic Substances (6.1)",
+							"6.2": "Infectious Substances (6.2)"
+						},
+						"hazardous": {
+							"HZM": "Hazardous, Non-DG",
+							"NDG": "Non-Hazardous, Non-DG"
+						},
+						"productType": {
+							"ZTRD": "Trading Goods",
+							"UNBW": "Non-Valuated Materials",
+							"VERP": "Packaging",
+							"DIEN": "Services",
+							"ZSAM": "Sample",
+							"LEIH": "Re* Connection #0 to host 10.12.5.4 left intact turnable Package",
+							"ZTOL": "Tolling",
+							"ZUNB": "Tolling raw material non-valuated"
+						},
+						"languages": [{
+							"name": "English",
+							"platformCode": "en",
+							"sapCode": "EN",
+							"sapKey": "E"
+						}, {
+							"name": "Thai",
+							"platformCode": "th",
+							"sapCode": "TH",
+							"sapKey": "TH"
+						}, {
+							"name": "Vietnamese",
+							"platformCode": "vi",
+							"sapCode": "VI",
+							"sapKey": "VI"
+						}, {
+							"name": "Mandarin (traditional)",
+							"platformCode": "zh-Tw",
+							"sapCode": "ZF",
+							"sapKey": "ZF"
+						}, {
+							"name": "Mandarin (simplified)",
+							"platformCode": "zh-Cn",
+							"sapCode": "ZH",
+							"sapKey": "ZH"
+						}, {
+							"name": "Korean",
+							"platformCode": "ko",
+							"sapCode": "KO",
+							"sapKey": "KO"
+						}, {
+							"name": "Bahasa",
+							"platformCode": "id",
+							"sapCode": "ID",
+							"sapKey": "ID"
+						}]
+					}
+				}
+			}
+		}
+	}]
+}
