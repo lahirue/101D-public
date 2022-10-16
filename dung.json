@@ -1,0 +1,75 @@
+{
+  "Data": [
+    {
+      "LocalInstrument": "UD_TO_UD",
+      "Name": "Send Money",
+      "Description": "Send to another UnionDigital acccount",
+      "Group": "transfer",
+      "IsActive": true,
+      "Reason": "Service temporarily unavailable",
+      "Charges": [
+        {
+          "Provider": "UnionBank",
+          "Fee": 0.0,
+          "Min": 1.0,
+          "Max": 500000.0
+        }
+      ]
+    },
+    {
+      "LocalInstrument": "UD_TO_UB",
+      "Name": "Send Money",
+      "Description": "Send to UnionBank acccount",
+      "Group": "transfer",
+      "IsActive": true,
+      "Reason": "",
+      "Charges": [
+        
+      ]
+    },
+    {
+      "LocalInstrument": "UD_TO_OTHER",
+      "Name": "Send Money",
+      "Description": "Send to other banks or e-wallets",
+      "Group": "transfer",
+      "IsActive": true,
+      "Reason": "Service temporarily unavailable",
+      "Charges": [
+        {
+          "Provider": "Pesonet",
+          "Fee": 0.0,
+          "Min": 1.0,
+          "Max": 500000.0
+        },
+        {
+          "Provider": "Instapay",
+          "Fee": 10.0,
+          "Min": 1.0,
+          "Max": 50000.0
+        }
+      ]
+    },
+    {
+      "LocalInstrument": "CASHOUT",
+      "Name": "Cash out via Over the Counter",
+      "Description": "Cash out via Over the Counter",
+      "Group": "cashout",
+      "IsActive": true,
+      "Reason": "Service temporarily unavailable",
+      "Charges": [
+        {
+          "Provider": "Pesonet",
+          "Fee": 0.0,
+          "Min": 1.0,
+          "Max": 500000.0
+        },
+        {
+          "Provider": "Instapay",
+          "Fee": 0.0,
+          "Min": 1.0,
+          "Max": 500000.0
+        }
+      ]
+    }
+  ]
+}
